@@ -1,4 +1,8 @@
-# Problem 4: Convexity
+# Convexity Proofs
+
+Direct proofs that the squared function and any quadratic form `x^T A x` with PSD
+`A` are convex, plus a counterexample showing `x^3` is not. The PSD result is the
+foundation under quadratic-objective optimization (linear regression, MMSE).
 
 ## Definition
 

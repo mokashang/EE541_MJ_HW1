@@ -1,4 +1,7 @@
-# Problem 2: Partial Derivatives and Optimization
+# Partial Derivatives and Optimization
+
+Closed-form minimization of a quadratic objective via partial derivatives, with
+a Hessian-based second-order check that the stationary point is a minimum.
 
 ## Given
 

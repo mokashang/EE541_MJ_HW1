@@ -1,6 +1,10 @@
-# Problem 3: Hyperplane Distance
+# Hyperplane Distance
 
-## Part (a): Distance from point x0 to hyperplane w^T x + b = 0
+Closed-form distance from a point to a hyperplane (and between two parallel
+hyperplanes), derived via Lagrangian projection. The same identities underpin
+margin calculations in linear classifiers.
+
+## Distance from point x0 to hyperplane w^T x + b = 0
 
 The optimization problem is:
 min_x ||x0 - x||_2  subject to  w^T x + b = 0
@@ -30,11 +34,11 @@ The distance is:
              = |w^T x0 + b| / ||w||^2 * ||w||_2
              = |w^T x0 + b| / ||w||_2
 
-## Answer (Part a)
+### Result
 
 **Distance = |w^T x0 + b| / ||w||_2**
 
-## Part (b): Distance between two parallel hyperplanes
+## Distance between two parallel hyperplanes
 
 Given: w^T x + b1 = 0 and w^T x + b2 = 0
 
@@ -48,6 +52,6 @@ d = |w^T x0 + b2| / ||w||_2
   = |-b1 + b2| / ||w||_2
   = |b2 - b1| / ||w||_2
 
-## Answer (Part b)
+### Result
 
 **Distance = |b2 - b1| / ||w||_2**

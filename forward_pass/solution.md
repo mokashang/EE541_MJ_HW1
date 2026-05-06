@@ -1,4 +1,7 @@
-# Problem 1: MLP Forward Pass
+# MLP Forward Pass
+
+A two-layer MLP with ReLU hidden activation and a linear output, evaluated by hand
+to make every matrix multiply and bias addition explicit.
 
 ## Given
 
